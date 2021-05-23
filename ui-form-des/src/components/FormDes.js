@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import "./index.css";
+import "../index.css";
 
-export default function App() {
+function FormDes() {
   const [values, setValues] = useState({
     firstName: "",
     lastName: "",
@@ -68,3 +68,6 @@ const [valid, setValid] = useState(false);
     </div>
   );
 }
+
+
+export default FormDes
